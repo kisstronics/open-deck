@@ -269,7 +269,7 @@ function getCardView(cardObj) {
 	// console.log(cardOpts)
 	cardImage = names[cardKeys[cardOpts["type"]]]+"_"+cardOpts["number"]+".png";
 	// console.log(cardImage)
-	return "<img src='images/"+cardImage+"'>";
+	return "<img hieght='50px' width='50px' src='images/"+cardImage+"'>";
 }
 
 function shuffle(array) {
